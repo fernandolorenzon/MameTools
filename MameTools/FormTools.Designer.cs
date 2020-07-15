@@ -48,19 +48,23 @@
             // 
             // buttonMoveFound
             // 
-            this.buttonMoveFound.Location = new System.Drawing.Point(12, 401);
+            this.buttonMoveFound.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMoveFound.Image = ((System.Drawing.Image)(resources.GetObject("buttonMoveFound.Image")));
+            this.buttonMoveFound.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonMoveFound.Location = new System.Drawing.Point(7, 401);
             this.buttonMoveFound.Name = "buttonMoveFound";
-            this.buttonMoveFound.Size = new System.Drawing.Size(135, 80);
+            this.buttonMoveFound.Size = new System.Drawing.Size(169, 80);
             this.buttonMoveFound.TabIndex = 0;
             this.buttonMoveFound.Text = "Move found";
+            this.buttonMoveFound.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonMoveFound.UseVisualStyleBackColor = true;
             this.buttonMoveFound.Click += new System.EventHandler(this.buttonMoveFound_Click);
             // 
             // textBoxSource
             // 
-            this.textBoxSource.Location = new System.Drawing.Point(12, 52);
+            this.textBoxSource.Location = new System.Drawing.Point(16, 53);
             this.textBoxSource.Name = "textBoxSource";
-            this.textBoxSource.Size = new System.Drawing.Size(412, 20);
+            this.textBoxSource.Size = new System.Drawing.Size(440, 20);
             this.textBoxSource.TabIndex = 1;
             // 
             // label1
@@ -85,16 +89,20 @@
             // 
             this.textBoxDestination.Location = new System.Drawing.Point(12, 94);
             this.textBoxDestination.Name = "textBoxDestination";
-            this.textBoxDestination.Size = new System.Drawing.Size(412, 20);
+            this.textBoxDestination.Size = new System.Drawing.Size(444, 20);
             this.textBoxDestination.TabIndex = 3;
             // 
             // buttonMoveNotFound
             // 
-            this.buttonMoveNotFound.Location = new System.Drawing.Point(153, 401);
+            this.buttonMoveNotFound.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMoveNotFound.Image = ((System.Drawing.Image)(resources.GetObject("buttonMoveNotFound.Image")));
+            this.buttonMoveNotFound.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonMoveNotFound.Location = new System.Drawing.Point(182, 401);
             this.buttonMoveNotFound.Name = "buttonMoveNotFound";
-            this.buttonMoveNotFound.Size = new System.Drawing.Size(135, 80);
+            this.buttonMoveNotFound.Size = new System.Drawing.Size(169, 80);
             this.buttonMoveNotFound.TabIndex = 5;
             this.buttonMoveNotFound.Text = "Move not found";
+            this.buttonMoveNotFound.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonMoveNotFound.UseVisualStyleBackColor = true;
             this.buttonMoveNotFound.Click += new System.EventHandler(this.buttonMoveNotFound_Click);
             // 
@@ -111,7 +119,7 @@
             // 
             this.radioButtonSkipExt.AutoSize = true;
             this.radioButtonSkipExt.Checked = true;
-            this.radioButtonSkipExt.Location = new System.Drawing.Point(430, 134);
+            this.radioButtonSkipExt.Location = new System.Drawing.Point(462, 134);
             this.radioButtonSkipExt.Name = "radioButtonSkipExt";
             this.radioButtonSkipExt.Size = new System.Drawing.Size(95, 17);
             this.radioButtonSkipExt.TabIndex = 8;
@@ -122,7 +130,7 @@
             // radioButtonFullName
             // 
             this.radioButtonFullName.AutoSize = true;
-            this.radioButtonFullName.Location = new System.Drawing.Point(430, 157);
+            this.radioButtonFullName.Location = new System.Drawing.Point(462, 157);
             this.radioButtonFullName.Name = "radioButtonFullName";
             this.radioButtonFullName.Size = new System.Drawing.Size(72, 17);
             this.radioButtonFullName.TabIndex = 9;
@@ -133,14 +141,14 @@
             // 
             this.richTextBox.Location = new System.Drawing.Point(12, 134);
             this.richTextBox.Name = "richTextBox";
-            this.richTextBox.Size = new System.Drawing.Size(412, 261);
+            this.richTextBox.Size = new System.Drawing.Size(444, 261);
             this.richTextBox.TabIndex = 11;
             this.richTextBox.Text = "";
             // 
             // labelCount
             // 
             this.labelCount.AutoSize = true;
-            this.labelCount.Location = new System.Drawing.Point(386, 398);
+            this.labelCount.Location = new System.Drawing.Point(418, 398);
             this.labelCount.Name = "labelCount";
             this.labelCount.Size = new System.Drawing.Size(13, 13);
             this.labelCount.TabIndex = 12;
@@ -149,7 +157,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(342, 398);
+            this.label4.Location = new System.Drawing.Point(374, 398);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 13;
@@ -157,7 +165,7 @@
             // 
             // buttonListFolder
             // 
-            this.buttonListFolder.Location = new System.Drawing.Point(430, 222);
+            this.buttonListFolder.Location = new System.Drawing.Point(462, 222);
             this.buttonListFolder.Name = "buttonListFolder";
             this.buttonListFolder.Size = new System.Drawing.Size(135, 80);
             this.buttonListFolder.TabIndex = 14;
@@ -167,7 +175,7 @@
             // 
             // buttonSource
             // 
-            this.buttonSource.Location = new System.Drawing.Point(430, 52);
+            this.buttonSource.Location = new System.Drawing.Point(462, 52);
             this.buttonSource.Name = "buttonSource";
             this.buttonSource.Size = new System.Drawing.Size(78, 20);
             this.buttonSource.TabIndex = 15;
@@ -177,7 +185,7 @@
             // 
             // buttonDest
             // 
-            this.buttonDest.Location = new System.Drawing.Point(430, 93);
+            this.buttonDest.Location = new System.Drawing.Point(462, 93);
             this.buttonDest.Name = "buttonDest";
             this.buttonDest.Size = new System.Drawing.Size(78, 20);
             this.buttonDest.TabIndex = 16;
